@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		943506CD228A110D003091C7 /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943506CC228A110D003091C7 /* EventDetailViewController.swift */; };
+		94A350932287695200429686 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A350922287695200429686 /* EventTableViewCell.swift */; };
+		94A3509522876BEA00429686 /* EventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A3509422876BE900429686 /* EventTableViewController.swift */; };
+		94A350D7228869AF00429686 /* Peterhouse May Ball 2019.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94A350D5228869AF00429686 /* Peterhouse May Ball 2019.xcdatamodeld */; };
+		94A350D92288F47200429686 /* TransparentNavigationControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A350D82288F47200429686 /* TransparentNavigationControllerViewController.swift */; };
+		94C66293220C8A8F00A4F019 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C66292220C8A8F00A4F019 /* AppDelegate.swift */; };
+		94C66295220C8A8F00A4F019 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C66294220C8A8F00A4F019 /* ViewController.swift */; };
+		94C66298220C8A8F00A4F019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C66296220C8A8F00A4F019 /* Main.storyboard */; };
+		94C6629A220C8A9100A4F019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C66299220C8A9100A4F019 /* Assets.xcassets */; };
+		94C6629D220C8A9100A4F019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C6629B220C8A9100A4F019 /* LaunchScreen.storyboard */; };
+		94C662A8220C8A9100A4F019 /* Peterhouse_May_Ball_2019Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C662A7220C8A9100A4F019 /* Peterhouse_May_Ball_2019Tests.swift */; };
+		94C662B3220C8A9200A4F019 /* Peterhouse_May_Ball_2019UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C662B2220C8A9200A4F019 /* Peterhouse_May_Ball_2019UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94C662A4220C8A9100A4F019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94C66287220C8A8F00A4F019 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94C6628E220C8A8F00A4F019;
+			remoteInfo = "Peterhouse May Ball 2019";
+		};
+		94C662AF220C8A9200A4F019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94C66287220C8A8F00A4F019 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94C6628E220C8A8F00A4F019;
+			remoteInfo = "Peterhouse May Ball 2019";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		943506CC228A110D003091C7 /* EventDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
+		94A350922287695200429686 /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		94A3509422876BE900429686 /* EventTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewController.swift; sourceTree = "<group>"; };
+		94A350D6228869AF00429686 /* Peterhouse May Ball 2019.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Peterhouse May Ball 2019.xcdatamodel"; sourceTree = "<group>"; };
+		94A350D82288F47200429686 /* TransparentNavigationControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentNavigationControllerViewController.swift; sourceTree = "<group>"; };
+		94C6628F220C8A8F00A4F019 /* Peterhouse May Ball 2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Peterhouse May Ball 2019.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C66292220C8A8F00A4F019 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94C66294220C8A8F00A4F019 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94C66297220C8A8F00A4F019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94C66299220C8A9100A4F019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94C6629C220C8A9100A4F019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94C6629E220C8A9100A4F019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94C662A3220C8A9100A4F019 /* Peterhouse May Ball 2019Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Peterhouse May Ball 2019Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C662A7220C8A9100A4F019 /* Peterhouse_May_Ball_2019Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peterhouse_May_Ball_2019Tests.swift; sourceTree = "<group>"; };
+		94C662A9220C8A9200A4F019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94C662AE220C8A9200A4F019 /* Peterhouse May Ball 2019UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Peterhouse May Ball 2019UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C662B2220C8A9200A4F019 /* Peterhouse_May_Ball_2019UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peterhouse_May_Ball_2019UITests.swift; sourceTree = "<group>"; };
+		94C662B4220C8A9200A4F019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94C6628C220C8A8F00A4F019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C662A0220C8A9100A4F019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C662AB220C8A9200A4F019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94C66286220C8A8F00A4F019 = {
+			isa = PBXGroup;
+			children = (
+				94C66291220C8A8F00A4F019 /* Peterhouse May Ball 2019 */,
+				94C662A6220C8A9100A4F019 /* Peterhouse May Ball 2019Tests */,
+				94C662B1220C8A9200A4F019 /* Peterhouse May Ball 2019UITests */,
+				94C66290220C8A8F00A4F019 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94C66290220C8A8F00A4F019 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94C6628F220C8A8F00A4F019 /* Peterhouse May Ball 2019.app */,
+				94C662A3220C8A9100A4F019 /* Peterhouse May Ball 2019Tests.xctest */,
+				94C662AE220C8A9200A4F019 /* Peterhouse May Ball 2019UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94C66291220C8A8F00A4F019 /* Peterhouse May Ball 2019 */ = {
+			isa = PBXGroup;
+			children = (
+				94C66292220C8A8F00A4F019 /* AppDelegate.swift */,
+				94A350D5228869AF00429686 /* Peterhouse May Ball 2019.xcdatamodeld */,
+				94C66294220C8A8F00A4F019 /* ViewController.swift */,
+				94C66296220C8A8F00A4F019 /* Main.storyboard */,
+				943506CC228A110D003091C7 /* EventDetailViewController.swift */,
+				94A350D82288F47200429686 /* TransparentNavigationControllerViewController.swift */,
+				94A3509422876BE900429686 /* EventTableViewController.swift */,
+				94A350922287695200429686 /* EventTableViewCell.swift */,
+				94C66299220C8A9100A4F019 /* Assets.xcassets */,
+				94C6629B220C8A9100A4F019 /* LaunchScreen.storyboard */,
+				94C6629E220C8A9100A4F019 /* Info.plist */,
+			);
+			path = "Peterhouse May Ball 2019";
+			sourceTree = "<group>";
+		};
+		94C662A6220C8A9100A4F019 /* Peterhouse May Ball 2019Tests */ = {
+			isa = PBXGroup;
+			children = (
+				94C662A7220C8A9100A4F019 /* Peterhouse_May_Ball_2019Tests.swift */,
+				94C662A9220C8A9200A4F019 /* Info.plist */,
+			);
+			path = "Peterhouse May Ball 2019Tests";
+			sourceTree = "<group>";
+		};
+		94C662B1220C8A9200A4F019 /* Peterhouse May Ball 2019UITests */ = {
+			isa = PBXGroup;
+			children = (
+				94C662B2220C8A9200A4F019 /* Peterhouse_May_Ball_2019UITests.swift */,
+				94C662B4220C8A9200A4F019 /* Info.plist */,
+			);
+			path = "Peterhouse May Ball 2019UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94C6628E220C8A8F00A4F019 /* Peterhouse May Ball 2019 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C662B7220C8A9200A4F019 /* Build configuration list for PBXNativeTarget "Peterhouse May Ball 2019" */;
+			buildPhases = (
+				94C6628B220C8A8F00A4F019 /* Sources */,
+				94C6628C220C8A8F00A4F019 /* Frameworks */,
+				94C6628D220C8A8F00A4F019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Peterhouse May Ball 2019";
+			productName = "Peterhouse May Ball 2019";
+			productReference = 94C6628F220C8A8F00A4F019 /* Peterhouse May Ball 2019.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94C662A2220C8A9100A4F019 /* Peterhouse May Ball 2019Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C662BA220C8A9200A4F019 /* Build configuration list for PBXNativeTarget "Peterhouse May Ball 2019Tests" */;
+			buildPhases = (
+				94C6629F220C8A9100A4F019 /* Sources */,
+				94C662A0220C8A9100A4F019 /* Frameworks */,
+				94C662A1220C8A9100A4F019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94C662A5220C8A9100A4F019 /* PBXTargetDependency */,
+			);
+			name = "Peterhouse May Ball 2019Tests";
+			productName = "Peterhouse May Ball 2019Tests";
+			productReference = 94C662A3220C8A9100A4F019 /* Peterhouse May Ball 2019Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94C662AD220C8A9200A4F019 /* Peterhouse May Ball 2019UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C662BD220C8A9200A4F019 /* Build configuration list for PBXNativeTarget "Peterhouse May Ball 2019UITests" */;
+			buildPhases = (
+				94C662AA220C8A9200A4F019 /* Sources */,
+				94C662AB220C8A9200A4F019 /* Frameworks */,
+				94C662AC220C8A9200A4F019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94C662B0220C8A9200A4F019 /* PBXTargetDependency */,
+			);
+			name = "Peterhouse May Ball 2019UITests";
+			productName = "Peterhouse May Ball 2019UITests";
+			productReference = 94C662AE220C8A9200A4F019 /* Peterhouse May Ball 2019UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94C66287220C8A8F00A4F019 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Joe Winterburn";
+				TargetAttributes = {
+					94C6628E220C8A8F00A4F019 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					94C662A2220C8A9100A4F019 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 94C6628E220C8A8F00A4F019;
+					};
+					94C662AD220C8A9200A4F019 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 94C6628E220C8A8F00A4F019;
+					};
+				};
+			};
+			buildConfigurationList = 94C6628A220C8A8F00A4F019 /* Build configuration list for PBXProject "Peterhouse May Ball 2019" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94C66286220C8A8F00A4F019;
+			productRefGroup = 94C66290220C8A8F00A4F019 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94C6628E220C8A8F00A4F019 /* Peterhouse May Ball 2019 */,
+				94C662A2220C8A9100A4F019 /* Peterhouse May Ball 2019Tests */,
+				94C662AD220C8A9200A4F019 /* Peterhouse May Ball 2019UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94C6628D220C8A8F00A4F019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C6629D220C8A9100A4F019 /* LaunchScreen.storyboard in Resources */,
+				94C6629A220C8A9100A4F019 /* Assets.xcassets in Resources */,
+				94C66298220C8A8F00A4F019 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C662A1220C8A9100A4F019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C662AC220C8A9200A4F019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94C6628B220C8A8F00A4F019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A350932287695200429686 /* EventTableViewCell.swift in Sources */,
+				94A350D7228869AF00429686 /* Peterhouse May Ball 2019.xcdatamodeld in Sources */,
+				94C66295220C8A8F00A4F019 /* ViewController.swift in Sources */,
+				94A3509522876BEA00429686 /* EventTableViewController.swift in Sources */,
+				94C66293220C8A8F00A4F019 /* AppDelegate.swift in Sources */,
+				943506CD228A110D003091C7 /* EventDetailViewController.swift in Sources */,
+				94A350D92288F47200429686 /* TransparentNavigationControllerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C6629F220C8A9100A4F019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C662A8220C8A9100A4F019 /* Peterhouse_May_Ball_2019Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C662AA220C8A9200A4F019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C662B3220C8A9200A4F019 /* Peterhouse_May_Ball_2019UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94C662A5220C8A9100A4F019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94C6628E220C8A8F00A4F019 /* Peterhouse May Ball 2019 */;
+			targetProxy = 94C662A4220C8A9100A4F019 /* PBXContainerItemProxy */;
+		};
+		94C662B0220C8A9200A4F019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94C6628E220C8A8F00A4F019 /* Peterhouse May Ball 2019 */;
+			targetProxy = 94C662AF220C8A9200A4F019 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94C66296220C8A8F00A4F019 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94C66297220C8A8F00A4F019 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94C6629B220C8A9100A4F019 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94C6629C220C8A9100A4F019 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94C662B5220C8A9200A4F019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94C662B6220C8A9200A4F019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94C662B8220C8A9200A4F019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Peterhouse May Ball 2019/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jjw79.Peterhouse-May-Ball-2019";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		94C662B9220C8A9200A4F019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Peterhouse May Ball 2019/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jjw79.Peterhouse-May-Ball-2019";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		94C662BB220C8A9200A4F019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Peterhouse May Ball 2019Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jjw79.Peterhouse-May-Ball-2019Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Peterhouse May Ball 2019.app/Peterhouse May Ball 2019";
+			};
+			name = Debug;
+		};
+		94C662BC220C8A9200A4F019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Peterhouse May Ball 2019Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jjw79.Peterhouse-May-Ball-2019Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Peterhouse May Ball 2019.app/Peterhouse May Ball 2019";
+			};
+			name = Release;
+		};
+		94C662BE220C8A9200A4F019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Peterhouse May Ball 2019UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jjw79.Peterhouse-May-Ball-2019UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Peterhouse May Ball 2019";
+			};
+			name = Debug;
+		};
+		94C662BF220C8A9200A4F019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Peterhouse May Ball 2019UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jjw79.Peterhouse-May-Ball-2019UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Peterhouse May Ball 2019";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94C6628A220C8A8F00A4F019 /* Build configuration list for PBXProject "Peterhouse May Ball 2019" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C662B5220C8A9200A4F019 /* Debug */,
+				94C662B6220C8A9200A4F019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C662B7220C8A9200A4F019 /* Build configuration list for PBXNativeTarget "Peterhouse May Ball 2019" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C662B8220C8A9200A4F019 /* Debug */,
+				94C662B9220C8A9200A4F019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C662BA220C8A9200A4F019 /* Build configuration list for PBXNativeTarget "Peterhouse May Ball 2019Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C662BB220C8A9200A4F019 /* Debug */,
+				94C662BC220C8A9200A4F019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C662BD220C8A9200A4F019 /* Build configuration list for PBXNativeTarget "Peterhouse May Ball 2019UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C662BE220C8A9200A4F019 /* Debug */,
+				94C662BF220C8A9200A4F019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		94A350D5228869AF00429686 /* Peterhouse May Ball 2019.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				94A350D6228869AF00429686 /* Peterhouse May Ball 2019.xcdatamodel */,
+			);
+			currentVersion = 94A350D6228869AF00429686 /* Peterhouse May Ball 2019.xcdatamodel */;
+			path = "Peterhouse May Ball 2019.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 94C66287220C8A8F00A4F019 /* Project object */;
+}
